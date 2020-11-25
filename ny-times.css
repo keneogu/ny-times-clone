@@ -3,6 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+.body-container {
+    padding-top: 0px;
+    height: 100%;
+    margin: 0;
+    line-height: 1;
+    color: #333;
+    background-color: white;
+    display: block;
+}
 .header-container {
     width: 100%;
     position: fixed;
@@ -82,4 +91,66 @@
 .btn:hover {
     background-color:  rgb(50, 104, 145);
     cursor: pointer;
+}
+.page-heading {
+    padding: 80px;
+    color: #121212;
+    font-family: georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9375rem;
+    line-height: 2.25rem;
+    margin: 0 20px 1rem;
+    position: relative;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.article-main {
+    margin: 0 auto;
+    width:50%;
+}
+
+.article-main img {
+    width: 100%;
+    vertical-align: top;
+    height: auto;
+}
+.article-main-image-caption {
+    color: #666;
+    font-family: georgia,'times new roman',times,serif;
+    margin: 10px 20px 0;
+    text-align: left;
+}
+.article-main-image-caption-copyright {
+    display: inline;
+    color: #888;
+    font-family: georgia,'times new roman',times,serif;
+    line-height: 1.125rem;
+    font-size: 11px;
+}
+.article-author {
+    margin-bottom: 20px;
+    color: #121212;
+    display: flex;
+}
+.article-author1 {
+    display: flex;
+    flex-direction: column;
+}
+.author-name {
+    margin: 20px 10px;
+    width: 80%;
+}
+.author-entries{
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+.author-social-icons{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
 }
