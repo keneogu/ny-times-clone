@@ -348,6 +348,44 @@
     </div>
   </section>
 </article>
+
+<div class="contact-form-container">
+  <form action="#" method="POST" class="form">
+    <fieldset class="contact-fieldset">
+      <legend class="contact-fieldset-legend">Leave a Comment!</legend>
+    <section class="contact-form-content">
+      <div>
+    <label for="uname" class="contact-form-label">Name: </label>
+    <input type="text" name="uname" id="uname" required maxlength="20" class="contact-form-input">
+    </div>
+    <div>
+    <label for="email" class="contact-form-label">Email: </label>
+    <input type="email" name="email" id="email" required maxlength="20" class="contact-form-input">
+  </div>
+  <div>
+    <label for="comment" class="contact-form-label">Comment: </label>
+    <textarea id="comment" rows="12" name="comment" placeholder="Type your comment here…" required maxlength="250" class="contact-form-input contact-text-area"></textarea>
+   
+  </div>
+<div>
+    <label for="opinion" class="contact-form-label">What is your overall opinion about this article? </label>
+    <input type="radio" name="opinion" id="opinion" value="Positive" class="form-radio-button">Positive
+    <input type="radio" name="opinion" id="opinion" value="Negative" class="form-radio-button">Negative
+    <input type="radio" name="opinion" id="opinion" value="Neutral" class="form-radio-button">Neutral
+  </div>
+  <div>
+    <label for="subscribe" class="contact-form-label">I want to subscribe to the newsletter</label>
+    <input type="checkbox" name="subscribe" id="subscribe">
+  </div>
+  <div>
+    <input type="submit" value="Send" class="btn-contact">
+  </div>
+  </section>
+</fieldset>
+  </form>
+</div>
+
+
 </main>
     
 <!--bottom content-->
