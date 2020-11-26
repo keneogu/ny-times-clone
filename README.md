@@ -13,11 +13,6 @@ Additional description about the project and its features.
 - HTML
 - CSS
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
@@ -26,7 +21,7 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### On the project GitHub page, navigate to the main page of the repository [here]()
+### On the project GitHub page, navigate to the main page of the repository [here](https://github.com/keneogu/New-York-Times-Clone-Webpage/tree/milestone_one_two)
 
 ### Under the repository name, locate and click on a button
 
