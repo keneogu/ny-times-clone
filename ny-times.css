@@ -681,3 +681,72 @@ img {
     text-decoration: underline;
 }
 /*Footer Section Ends*/
+
+/* Contact Form Starts */
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+.form {
+    margin-bottom: 0px;
+}
+.contact-form-input {
+  border: 1px solid #155799;
+  border-radius: 5px;
+  color: #888;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+  min-width: 330px;
+}
+
+.contact-form-label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+  width: 200px;
+  display: inline-block;
+}
+.contact-form-content {
+    margin: 20px 20px 20px 20px;
+}
+
+.btn-contact {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #77a198;
+    width: 530px;
+  }
+  .btn-contact:hover {
+    background: #77a198;
+    color: #fff;
+  }
+.contact-fieldset {
+    border:2px solid #648880;;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+}
+.contact-fieldset-legend {
+    color: #648880;	
+}
+.form-radio-button {
+    color: #648880;
+    margin: 0px 5px 40px 20px;
+}
+.contact-text-area {
+    vertical-align: top;
+}
+  
+
+/* Contact Form Ends */
