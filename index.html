@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="form-container">
         <form action="#" method="post">
             <fieldset class="field field1">
-                <legend>Please fill the form before i shoot you</legend>
+                <p>Please fill the form before i shoot you</p>
                 <label for="uname">
                     Username:
-                    <input type="text" id="uname" name="uname">
+                    <input type="text" id="uname" name="uname" class="nice" placeholder="name@domain.com" required>
                 </label>
-                <label for="pword">
+                <label for="email">
                     Email:
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" class="nice" placeholder="name@domain.com" required>
                 </label>
             </fieldset>
                 <textarea name="comment" id="First-comment" cols="30" rows="10">Add comment here</textarea>
                 <fieldset class="field field2">
-                    <legend>What is your overall opinon about this article</legend>
+                    <p>What is your overall opinon about this article</p>
                 <label for="radio">
                     <input type="radio" id="radio" name="radio">
                     positive
@@ -35,13 +36,12 @@
                     neutral
                 </label>
             </fieldset>
-            <fieldset>
+            <fieldset class="field field3">
                     <label for="check">
                         <input type="checkbox" id="check" name="check">I want to subscribe to the newsletter
                      </label>
+                     <input type="submit" class="btn" name="submit" value="Send">
             </fieldset> 
-            
-            <input type="submit" class="btn" name="submit" value="Send">
 
 
         </form>
