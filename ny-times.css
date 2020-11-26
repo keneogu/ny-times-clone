@@ -357,8 +357,7 @@ img {
     font-weight: 500;
     height: 23px;
     line-height: 16px;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .bottom-nav-group-list li a:hover{
     text-decoration: underline;
