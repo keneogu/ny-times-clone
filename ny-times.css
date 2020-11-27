@@ -212,12 +212,13 @@ list-style: none;
     .article-body {
         display: block;
         color: #333;
-    }
-    .article-content1 {
-        display: flex;
         width: 1170px;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .article-content1 {
+        display: flex;
     }
     .article-inner-content {
         margin-left: calc((100% - 600px) / 2);
@@ -247,11 +248,13 @@ list-style: none;
     }
     .inner-art ul {
         list-style: none;
+        padding-bottom: 5px;
     }
-    hr {
+    .inner-art hr {
         width: 72px;
-        margin: 0 auto;
+        margin: 20px auto;
     }
+
     .inflation {
         max-width: 100%;
         display: block;
@@ -305,6 +308,69 @@ list-style: none;
     .article-span2 {
         margin: 0;
     }
+
+
+    .article-side {
+        width: 210px;
+        display: flex;
+        margin-right: 0;
+        margin-left: auto;
+        align-items: center;
+    }
+    
+    .article-side1 {
+        width: inherit;
+        max-width: 100%;
+        display: block;
+    }
+    
+    .inner-side-article{
+        margin-bottom: 15px;
+    }
+    
+    .editor-pick-link {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: black;
+        padding-bottom: 0px;
+    }
+    
+    .side-image{
+        display: block;
+        height: auto;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    
+    .article-side-head3 {
+        margin: auto 0px auto 10px;
+        font-family: nyt-cheltenham-small, georgia, "times new roman";
+        font-size: 14px;
+        line-height: 17px;
+        color: rgb(51, 51, 51);
+    }
+    .article-side-head3:hover {
+        text-decoration: underline;
+    }
+    .side-image img {
+        width: 75px;
+    }
+    
+    .article-side-head2 {
+        font-family: nyt-franklin, helvetica, arial, sans-serif;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(226, 226, 226);
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding-bottom: 12px;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+    }
+
     .btnn {
         font-size: 0.9375rem;
         padding: 6px 12px 4px;
@@ -343,6 +409,73 @@ list-style: none;
     .image1 {
         width: 600px;
     }
+
+    .bottom-of-section {
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    
+    .bottom-of-section1 {
+        font-family: nyt-franklin, helvetica, arial, sans-serif;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        margin: 0px auto 1em;
+        color: rgb(102, 102, 102);
+    }
+    .bottom-of-section1 a {
+        color: rgb(102, 102, 102);
+        text-decoration: underline;
+    }
+    
+    .bottom-of-section1 a:hover {
+        text-decoration: none;
+    }
+    .bottom-of-section2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .bottom-btn {
+        width: 330px;
+        display: block;
+        margin-right: 16px;
+        background-color: rgb(86, 123, 149);
+        border: 1px solid rgb(50, 104, 145);
+        border-radius: 3px;
+        color: white;
+        font-family: nyt-franklin, helvetica, arial, sans-serif;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        line-height: 1.5rem;
+        padding: 5px 0px;
+        text-transform: uppercase;
+    }
+    
+    .bottom-svg {
+        color: #999;
+        flex-shrink: 0;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    
+    .bottom-svg ul {
+        list-style-type: none;
+    }
+    .bottom-svg-list {
+        display: inline;
+        margin-right: 16px;
+    }
+    .main-svg {
+        background-color: #eee;
+        border: 1px #eee solid;
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+    }
+
     /* Secton ContenEnd*/
 /* bottom style*/
 .bottom-container {
