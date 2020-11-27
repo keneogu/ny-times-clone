@@ -39,15 +39,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Kenechukwu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@keneogu](https://github.com/githubhandle)
+- Twitter: [@keneogu](https://twitter.com/twitterhandle)
+- LinkedIn: [https://www.linkedin.com/in/oguagbaka-kenechukwu-8b2289179/](https://linkedin.com/linkedinhandle)
 
 👤 **Patrick**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@tumwinep](https://github.com/githubhandle)
+- Twitter: [@amwinep](https://twitter.com/twitterhandle)
+- LinkedIn: [https://www.linkedin.com/in/patrick-tumwine-amwine-0aa41652/](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
