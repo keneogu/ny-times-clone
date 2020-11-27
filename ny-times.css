@@ -6,7 +6,6 @@
 }
 
 .body-container {
-  padding-top: 0px;
   height: 100%;
   margin: 0;
   line-height: 1;
@@ -18,6 +17,7 @@
 .header-container {
   width: 100%;
   position: fixed;
+  top: 0;
   display: flex;
   justify-content: center;
   background-color: white;
@@ -84,7 +84,7 @@
 .nav {
   display: flex;
   justify-content: space-around;
-  padding: 8px 9px;
+  padding: 9px 9px;
 }
 
 .btn {
@@ -187,8 +187,6 @@
 
 .author-social-icons{
   list-style: none;
-  margin: 0px;
-  padding: 0px;
   display: flex;
 }
 
@@ -335,7 +333,6 @@
 
 .article-span1 {
   display: inline;
-  margin: 0px;
   font-size: 0.875rem;
   font-weight: 700;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -380,7 +377,7 @@
   display: block;
   height: auto;
   max-width: 100%;
-  margin-left: 0px;
+
 }
   
 .article-side-head3 {
@@ -738,7 +735,7 @@ img {
   font-family: helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
-  margin: 0px;
+
   text-transform: uppercase;
   width: 150px;
   display: block;
@@ -746,8 +743,7 @@ img {
 
 .bottom-nav-group-list {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+
 }
 
 .bottom-nav-group-list li a {
@@ -780,15 +776,15 @@ img {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
-  margin: 0px;
+
   text-transform: uppercase;
   width: 150px;
 }
 
 .bottom-nav-group-subscribe-list {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+
+
 }
 
 .bottom-nav-group-subscribe-list li {
@@ -816,8 +812,8 @@ img {
 
 .bottom-nav-group-subscribe-list-mid {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+
+
 }
 
 .bottom-nav-group-subscribe-list-mid li a {
@@ -901,8 +897,7 @@ img {
   margin: 0 0 35px;
 }
 
-.footer-nav-menu-list li a 
-{
+.footer-nav-menu-list li a{
   border-left: none;
   color: #666;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
