@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
+    margin-top: 0;
 }
 .header-section {
     width: 100%;
@@ -130,22 +131,21 @@
     max-width: 1200px;
     margin-left: -150px;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 20px;
     
 }
 .page-heading {
     margin-top: 20px;
-    padding: 50px;
+    padding-top: 80px;
     color: #121212;
     font-family: georgia,'times new roman',times,serif;
     font-weight: 700;
     font-style: italic;
     font-size: 2.5rem;
     line-height: 3rem;
-    margin: 0 20px 1rem;
     margin-left: 20px;
     margin-right: 20px;
-    width: 640px;
+    width: 670px;
 }
 .author-name {
     margin: 20px 10px;
