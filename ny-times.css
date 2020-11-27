@@ -669,6 +669,59 @@ img {
   margin-top: 340px;
 }
 
+.footer {
+  padding: 0 3% 45px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ebebeb;
+  padding-top: 9px;
+  font-size: 10px;
+}
+
+.footer-nav-list {
+  list-style: none;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+.footer-nav-list li a {
+  color: #666;
+  flex-grow: 2;
+  font-family: helvetica, arial, sans-serif;
+  padding: 10px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.footer-nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav-menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0 0 35px;
+}
+
+.footer-nav-menu-list li a {
+  border-left: none;
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  margin: 0 10px;
+}
+
+.footer-nav-menu-list li a:hover {
+  text-decoration: underline;
+}
+
 .bottom-nav-container-header {
   display: flex; 
   justify-content: space-between;
@@ -831,53 +884,6 @@ img {
   max-width: 1200px;
 }
 
-.footer-nav {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #ebebeb;
-  padding-top: 9px;
-  font-size: 10px;
-}
-
-.footer-nav-list {
-  list-style: none;
-  margin: 0 0 15px;
-  padding: 0;
-}
-
-.footer-nav-list li a {
-  color: #666;
-  flex-grow: 2;
-  font-family: helvetica, arial, sans-serif;
-  padding: 10px 0;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.footer-nav-list li a:hover {
-  text-decoration: underline;
-}
-
-.footer-nav-menu-list {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  margin: 0 0 35px;
-}
-
-.footer-nav-menu-list li a {
-  border-left: none;
-  color: #666;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  text-decoration: none;
-  white-space: nowrap;
-  margin: 0 10px;
-}
-
-.footer-nav-menu-list li a:hover 
-{
-  text-decoration: underline;
-}
 /*Footer Section Ends*/
 
 .i-frame{
