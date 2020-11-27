@@ -48,6 +48,14 @@
   padding: 8px 9px;
 }
 
+.section-head a:hover {
+  text-decoration: underline;
+}
+
+.bottom-of-section1 a:hover {
+  text-decoration: none;
+}
+
 .space-cosmos {
   text-decoration: none;
   font-size: 14.25px;
@@ -61,17 +69,9 @@
   position: absolute;
 }
 
-.space-cosmos a{
+.space-cosmos a {
   text-decoration: none;
   color: black;
-}
-
-.space-cosmos a:hover{
-  text-decoration: underline;
-}
-
-.new-logo {
-  margin-left: 20%;
 }
 
 .new-logo a {
@@ -79,6 +79,20 @@
   height: 26px;
   margin: 6px auto 0;
   display: block;
+}
+
+.author-social-icon-li a {
+  vertical-align: middle;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 18px;
+  height: 18px;
+}
+
+.new-logo {
+  margin-left: 20%;
 }
 
 .nav {
@@ -109,7 +123,7 @@
 
 .article-main {
   margin: 0 auto;
-  width:50%;
+  width: 50%;
 }
 
 .article-main img {
@@ -151,7 +165,6 @@
   margin-left: -150px;
   margin-right: auto;
   margin-top: 20px;
-  
 }
 
 .page-heading {
@@ -175,17 +188,27 @@
   font-size: 0.9375rem;
   line-height: 1.25rem;
   font-family: helvetica, arial, sans-serif;
-  font-weight: 700;
   color: #333;
 }
 
-.author-entries{
+.author-entries {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin: 20px 10px;
+  width: 600px;
+  flex-shrink: 1;
+  padding-right: 1rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin-top: 0;
 }
 
-.author-social-icons{
+.author-social-icons {
   list-style: none;
   display: flex;
 }
@@ -198,41 +221,12 @@
   width: 100%;
 }
 
-.author-social-icon-li a {
-  vertical-align: middle;
-  background-color: #eee;
-  border: 1px #eee solid;
-  border-radius: 100%;
-  padding: 5px;
-  width: 18px;
-  height: 18px;
-}
-
 .author-social-icon-li a:hover {
   background-color: #fff;
   border: 1px solid #ccc;
 }
 
-.author-entries{
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 20px 10px;
-  width: 600px;
-  flex-shrink: 1;
-  padding-right: 1rem;
-  list-style: none;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 500;
-  color: #333;
-  margin-bottom: 1rem;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-  /*Section Conent Start*/
+/* Section Conent Start */
 .article-body {
   display: block;
   color: #333;
@@ -240,7 +234,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-  
+
 .article-content1 {
   display: flex;
 }
@@ -269,7 +263,7 @@
 }
 
 .inlink:visited {
-   color: #326891;
+  color: #326891;
 }
 
 .inner-art {
@@ -306,7 +300,7 @@
   max-width: 100%;
 }
 
-.article-sprea{
+.article-sprea {
   width: 600px;
   max-width: 600px;
   display: flex;
@@ -325,7 +319,6 @@
 }
 
 .article-span {
-  margin-right: 20px;
   max-width: 500px;
   text-align: left;
   margin-right: 20px;
@@ -359,25 +352,23 @@
   max-width: 100%;
   display: block;
 }
-  
+
 .inner-side-article{
   margin-bottom: 15px;
 }
-  
+
 .editor-pick-link {
   height: 100%;
   display: flex;
   flex-direction: row;
   text-decoration: none;
   color: black;
-  padding-bottom: 0px;
 }
-  
-.side-image{
+
+.side-image {
   display: block;
   height: auto;
   max-width: 100%;
-
 }
   
 .article-side-head3 {
@@ -472,10 +463,6 @@
   color: rgb(102, 102, 102);
   text-decoration: underline;
 }
-  
-.bottom-of-section1 a:hover {
-  text-decoration: none;
-}
 
 .bottom-of-section2 {
   display: flex;
@@ -533,7 +520,7 @@
   margin: 0;
   display: flex;
   background-color: rgb(255, 255, 255);
-  font-family: nyt-franklin, helvetica, arial, sans-seri
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .main-bottom {
@@ -583,10 +570,6 @@
   color: black;
 }
 
-.section-head a:hover {
-  text-decoration: underline;
-}
-
 .aside-section {
   display: block;
   width: 30%;
@@ -604,18 +587,18 @@
   margin-top: 20px;
 }
 
-.first:nth-child(1){
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 20px;
-}
-
 .first {
   width: 272.625px;
   padding-bottom: 20px;
   text-size-adjust: 100%;
   max-width: 32%;
   flex-basis: 32%;
+}
+
+.first:nth-child(1){
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
 }
 
 .second {
@@ -915,4 +898,8 @@ img {
 .i-frame{
     border: none;
     width: 1000px;
+}
+
+.space-cosmos a:hover {
+  text-decoration: underline;
 }
