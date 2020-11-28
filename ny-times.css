@@ -106,8 +106,13 @@ body {
 }
 
 .article-main {
+  width: 1200px;
   margin: 0 auto;
-  width: 50%;
+}
+
+.page-heading-container {
+  margin: 0 auto;
+  width: 670px;
 }
 
 .page-heading {
@@ -119,23 +124,25 @@ body {
   font-style: italic;
   font-size: 2.5rem;
   line-height: 3rem;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 670px;
 }
 
 .header-image {
   width: 945px;
-  max-width: 1200px;
-  margin-left: -150px;
-  margin-right: auto;
-  margin-top: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .article-main-image {
   width: 100%;
-  vertical-align: top;
   height: auto;
+}
+
+.article-main-image-caption {
+  width: 687px;
+  padding-top: 5px;
+  color: #666;
+  line-height: 1.25rem;
 }
 
 .article-main-image-caption-copyright {
@@ -147,7 +154,7 @@ body {
 }
 
 .article-author {
-  margin-bottom: 20px;
+  margin: 0 auto;
   color: #121212;
   display: flex;
   width: 600px;
